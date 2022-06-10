@@ -58,14 +58,11 @@ jobs:
         run: |
           yarn install
 
-      - name: Upgrade Version
-        run: |
-          yarn bump:foreach ${{ steps.previous_tag.outputs.tag }}
-
       - name: Publish
         env:
           RELEASE_VERSION: ${{ steps.previous_tag.outputs.tag }}
         run: |
-          yarn changeset publish
+          yarn bump:foreach $RELEASE_VERSION
+          yarn release
           git commit -am "Release $RELEASE_VERSION"
           git push
