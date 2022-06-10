@@ -59,18 +59,16 @@ jobs:
           yarn install
 
       - name: Publish
-        env:
-          RELEASE_VERSION: ${{ steps.previous_tag.outputs.tag }}
         run: |
-          yarn bump:foreach $RELEASE_VERSION
+          yarn bump:foreach  ${{ steps.previous_tag.outputs.tag }}
           yarn release
       
       - name: Commit release version
-        env:
-          RELEASE_VERSION: ${{ steps.previous_tag.outputs.tag }}
-        run: |
-          git config --global user.email "bp-deployer@users.noreply.github.com"
-          git config --global user.name "bp-deployer"
-          git commit -am "Release $RELEASE_VERSION"
-          git push
-        
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Release ${{ steps.previous_tag.outputs.tag }}
+          file_pattern: .
+          branch: main
+          commit_user_name: bp-deployer
+          commit_user_email: bp-deployer@users.noreply.github.com
+          commit_author: bp-deployer <bp-deployer@users.noreply.github.com>
