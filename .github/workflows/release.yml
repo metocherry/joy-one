@@ -66,7 +66,7 @@ jobs:
       - name: Commit release version
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Release ${{ steps.previous_tag.outputs.tag }}
+          commit_message: 🚀 Release ${{ steps.previous_tag.outputs.tag }}
           file_pattern: .
           branch: main
           commit_user_name: bp-deployer
