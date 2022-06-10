@@ -1,5 +1,11 @@
 # @metocherry/joy-one-utils
 
+## 0.0.10
+
+### Patch Changes
+
+- change build bundler
+
 ## 0.0.9
 
 ### Patch Changes

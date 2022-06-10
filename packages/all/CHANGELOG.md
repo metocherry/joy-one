@@ -1,5 +1,15 @@
 # @metocherry/joy-one
 
+## 0.0.10
+
+### Patch Changes
+
+- change build bundler
+
+- Updated dependencies []:
+  - @metocherry/joy-one-ui@0.0.10
+  - @metocherry/joy-one-utils@0.0.10
+
 ## 0.0.9
 
 ### Patch Changes
