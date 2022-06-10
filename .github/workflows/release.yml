@@ -66,7 +66,6 @@ jobs:
           yarn release
       
       - name: Commit release version
-        uses: stefanzweifel/git-auto-commit-action@v4
         env:
           RELEASE_VERSION: ${{ steps.previous_tag.outputs.tag }}
         run: |
