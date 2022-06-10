@@ -26,7 +26,8 @@
   "license": "MIT",
   "scripts": {
     "prepublishOnly": "yarn build",
-    "build": "tsc --noEmit && parcel build --no-source-maps"
+    "build": "tsc --noEmit && parcel build --no-source-maps",
+    "bump": "lerna version"
   },
   "dependencies": {
     "@metocherry/joy-one-ui": "0.0.10",
