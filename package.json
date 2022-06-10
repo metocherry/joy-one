@@ -1,35 +1,12 @@
 {
   "name": "@metocherry/joy-one",
   "version": "0.0.7",
-  "main": "packages/all/dist/cjs/index.js",
-  "module": "packages/all/dist/esm/index.js",
-  "exports": {
-    "./ui": {
-      "import": "./packages/ui/dist/esm/index.js",
-      "require": "./packages/ui/dist/cjs/index.js"
-    },
-    "./utils": {
-      "import": "./packages/utils/dist/esm/index.js",
-      "require": "./packages/utils/dist/cjs/index.js"
-    }
-  },
-  "files": [
-    "packages/all/dist/**/*",
-    "packages/ui/dist/**/*",
-    "packages/utils/dist/**/*"
-  ],
-  "sideEffects": false,
+  "prviate": true,
   "repository": "git@github.com:metocherry/joy-one.git",
   "author": "jinseok <metocherry@gmail.com>",
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
-  "command": {
-    "publish": {
-      "registry": "https://registry.npmjs.org/"
-    }
-  },
   "license": "MIT",
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "yarn@3.2.1",
+  "dependencies": {
+    "turbo": "^1.2.16"
+  }
 }
