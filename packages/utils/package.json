@@ -30,5 +30,8 @@
   "dependencies": {
     "@swc/helpers": "^0.3.17",
     "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.0"
   }
 }

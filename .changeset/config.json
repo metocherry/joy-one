@@ -1,8 +1,13 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@2.0.0/schema.json",
-  "changelog": "@changesets/cli/changelog",
+  "changelog": [
+    "@changesets/changelog-github",
+    {
+      "repo": "metocherry/joy-one"
+    }
+  ],
   "commit": false,
-  "fixed": [["@metocherry/*"]],
+  "fixed": [[]],
   "linked": [],
   "access": "restricted",
   "baseBranch": "main",

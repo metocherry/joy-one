@@ -632,7 +632,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@metocherry/joy-one-ui@0.0.7, @metocherry/joy-one-ui@workspace:packages/ui":
+"@metocherry/joy-one-ui@0.0.9, @metocherry/joy-one-ui@workspace:packages/ui":
   version: 0.0.0-use.local
   resolution: "@metocherry/joy-one-ui@workspace:packages/ui"
   dependencies:
@@ -641,17 +641,19 @@ __metadata:
     "@swc/helpers": ^0.3.17
     "@types/react": ^18.0.12
     "@types/react-dom": ^18.0.5
+    parcel: ^2.6.0
     react: ^18.1.0
     react-dom: ^18.1.0
     regenerator-runtime: ^0.13.9
   languageName: unknown
   linkType: soft
 
-"@metocherry/joy-one-utils@0.0.7, @metocherry/joy-one-utils@workspace:packages/utils":
+"@metocherry/joy-one-utils@0.0.9, @metocherry/joy-one-utils@workspace:packages/utils":
   version: 0.0.0-use.local
   resolution: "@metocherry/joy-one-utils@workspace:packages/utils"
   dependencies:
     "@swc/helpers": ^0.3.17
+    parcel: ^2.6.0
     regenerator-runtime: ^0.13.9
   languageName: unknown
   linkType: soft
@@ -662,11 +664,12 @@ __metadata:
   dependencies:
     "@emotion/react": ^11.9.0
     "@emotion/styled": ^11.8.1
-    "@metocherry/joy-one-ui": 0.0.7
-    "@metocherry/joy-one-utils": 0.0.7
+    "@metocherry/joy-one-ui": 0.0.9
+    "@metocherry/joy-one-utils": 0.0.9
     "@swc/helpers": ^0.3.17
     "@types/react": ^18.0.12
     "@types/react-dom": ^18.0.5
+    parcel: ^2.6.0
     react: ^18.1.0
     react-dom: ^18.1.0
     regenerator-runtime: ^0.13.9
