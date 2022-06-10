@@ -1,6 +1,6 @@
 {
   "name": "@metocherry/joy-one",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "exports": {
@@ -8,7 +8,8 @@
     "require": "./dist/cjs/index.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "packages/ui/dist"
   ],
   "sideEffects": false,
   "repository": "git@github.com:metocherry/joy-one.git",
