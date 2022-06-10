@@ -1,6 +1,6 @@
 {
   "name": "@metocherry/joy-one-pkg",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "prviate": true,
   "repository": "git@github.com:metocherry/joy-one.git",
   "author": "jinseok <metocherry@gmail.com>",
@@ -12,7 +12,10 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
-    "lint": "turbo run lint"
+    "lint": "turbo run lint",
+    "changeset": "changeset",
+    "bump": "changeset version",
+    "release": "changeset publish"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.4",
