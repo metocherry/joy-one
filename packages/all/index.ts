@@ -1,2 +1,2 @@
-export * from '@metocherry/joy-one-ui';
-export * from '@metocherry/joy-one-utils';
+export * from '@metocherry/joy-ui';
+export * from '@metocherry/joy-utils';

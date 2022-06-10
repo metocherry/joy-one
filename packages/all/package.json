@@ -30,8 +30,8 @@
     "bump": "yarn version"
   },
   "dependencies": {
-    "@metocherry/joy-ui": "*",
-    "@metocherry/joy-utils": "*",
+    "@metocherry/joy-ui": "0.0.3",
+    "@metocherry/joy-utils": "0.0.3",
     "@swc/helpers": "^0.3.17",
     "regenerator-runtime": "^0.13.9"
   },
