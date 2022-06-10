@@ -1,6 +1,6 @@
 {
   "name": "@metocherry/chip-one",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "source": "index.ts",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -29,8 +29,8 @@
     "bump": "yarn version"
   },
   "dependencies": {
-    "@metocherry/chip-ui": "0.0.10",
-    "@metocherry/chip-utils": "0.0.10",
+    "@metocherry/chip-ui": "0.0.11",
+    "@metocherry/chip-utils": "0.0.11",
     "@swc/helpers": "^0.3.17",
     "regenerator-runtime": "^0.13.9"
   },
