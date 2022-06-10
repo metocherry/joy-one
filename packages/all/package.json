@@ -1,8 +1,7 @@
 {
   "name": "@metocherry/joy-one",
   "version": "0.0.7",
-  "private": true,
-  "source": "src/index.ts",
+  "source": "index.ts",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "sideEffects": false,
@@ -19,8 +18,18 @@
     "prepublishOnly": "yarn build",
     "build": "tsc --noEmit && parcel build --no-source-maps"
   },
-  "devDependencies": {
-  },
   "dependencies": {
+    "@metocherry/joy-one-ui": "0.0.7",
+    "@metocherry/joy-one-utils": "0.0.7",
+    "@swc/helpers": "^0.3.17",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
   }
 }

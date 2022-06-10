@@ -19,8 +19,8 @@
     "prepublishOnly": "yarn build",
     "build": "tsc --noEmit && parcel build --no-source-maps"
   },
-  "devDependencies": {
-  },
   "dependencies": {
+    "@swc/helpers": "^0.3.17",
+    "regenerator-runtime": "^0.13.9"
   }
 }

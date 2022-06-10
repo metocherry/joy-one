@@ -1,12 +1,27 @@
 {
-  "name": "@metocherry/joy-one",
+  "name": "@metocherry/joy-one-pkg",
   "version": "0.0.7",
   "prviate": true,
   "repository": "git@github.com:metocherry/joy-one.git",
   "author": "jinseok <metocherry@gmail.com>",
   "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
   "packageManager": "yarn@3.2.1",
-  "dependencies": {
-    "turbo": "^1.2.16"
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.4",
+    "@changesets/cli": "^2.22.0",
+    "parcel": "^2.6.0",
+    "turbo": "^1.2.16",
+    "typescript": "^4.7.3"
+  },
+  "resolutions": {
+    "lmdb": "2.5.2"
   }
 }

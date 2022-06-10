@@ -1,6 +1,5 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Default",
   "compilerOptions": {
     "composite": false,
     "declaration": true,
@@ -22,9 +21,7 @@
       "esnext"
     ],
     "module": "esnext",
-    "target": "es6",
-    "jsx": "react-jsx",
-    "jsxImportSource": "@emotion/react"
+    "target": "es6"
   },
   "exclude": ["node_modules"]
 }
