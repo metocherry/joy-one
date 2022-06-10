@@ -1,6 +1,7 @@
 {
   "name": "@metocherry/joy-one-pkg",
   "version": "0.0.1",
+  "private": true,
   "repository": "git@github.com:metocherry/joy-one.git",
   "author": "jinseok <metocherry@gmail.com>",
   "workspaces": [
@@ -12,20 +13,6 @@
     "packages/utils/dist/**"
   ],
   "browserslist": "ie 11",
-  "exports": {
-    "./ui": {
-      "import": "./packages/ui/dist/esm/index.js",
-      "require": "./packages/ui/dist/cjs/index.js"
-    },
-    "./utils": {
-      "import": "./packages/utils/dist/esm/index.js",
-      "require": "./packages/utils/dist/cjs/index.js"
-    }
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
   "command": {
     "publish": {
       "registry": "https://registry.npmjs.org/"
