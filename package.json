@@ -13,6 +13,15 @@
   "sideEffects": false,
   "repository": "git@github.com:metocherry/joy-one.git",
   "author": "jinseok <metocherry@gmail.com>",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "command": {
+    "publish": {
+      "registry": "https://registry.npmjs.org/"
+    }
+  },
   "license": "MIT",
   "packageManager": "yarn@3.2.1"
 }
