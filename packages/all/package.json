@@ -1,6 +1,6 @@
 {
   "name": "@metocherry/joy-one",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "source": "index.ts",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -29,8 +29,8 @@
     "bump": "yarn version"
   },
   "dependencies": {
-    "@metocherry/joy-ui": "0.0.5",
-    "@metocherry/joy-utils": "0.0.5",
+    "@metocherry/chip-ui": "0.0.6",
+    "@metocherry/chip-utils": "0.0.6",
     "@swc/helpers": "^0.3.17",
     "regenerator-runtime": "^0.13.9"
   },

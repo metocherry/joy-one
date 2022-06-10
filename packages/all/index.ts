@@ -1,2 +1,2 @@
-export * from '@metocherry/joy-ui';
-export * from '@metocherry/joy-utils';
+export * from '@metocherry/chip-ui';
+export * from '@metocherry/chip-utils';
