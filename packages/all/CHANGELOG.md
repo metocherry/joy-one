@@ -1,5 +1,15 @@
 # @metocherry/joy-one
 
+## 0.0.4
+
+### Patch Changes
+
+- test release
+
+- Updated dependencies []:
+  - @metocherry/joy-ui@0.0.4
+  - @metocherry/joy-utils@0.0.4
+
 ## 0.0.10
 
 ### Patch Changes

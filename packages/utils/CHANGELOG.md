@@ -1,5 +1,11 @@
 # @metocherry/joy-one-utils
 
+## 0.0.4
+
+### Patch Changes
+
+- test release
+
 ## 0.0.10
 
 ### Patch Changes
