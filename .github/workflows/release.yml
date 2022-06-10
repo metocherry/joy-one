@@ -60,7 +60,7 @@ jobs:
 
       - name: Upgrade Version
         run: |
-          yarn bump:foreach
+          yarn bump:foreach ${{ steps.previous_tag.outputs.tag }}
 
       - name: Publish
         env:
