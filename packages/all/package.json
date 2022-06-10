@@ -30,8 +30,8 @@
     "bump": "lerna version"
   },
   "dependencies": {
-    "@metocherry/joy-one-ui": "0.0.10",
-    "@metocherry/joy-one-utils": "0.0.10",
+    "@metocherry/joy-ui": "*",
+    "@metocherry/joy-utils": "*",
     "@swc/helpers": "^0.3.17",
     "regenerator-runtime": "^0.13.9"
   },
